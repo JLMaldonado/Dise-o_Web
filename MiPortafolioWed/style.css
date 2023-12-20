@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+.conteiner{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.informacion {
+    
+    height: 200px;
+    width: 400px;
+    padding: 20px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    background-color:aqua;
+    color: black; 
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    padding: 10pxpx;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.Experiencia{
+    
+    height: 100px;
+    width: 400px;
+    padding: 20px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    background-color:antiquewhite;
+    color: black; 
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+.proyectos{
+    
+    height: 100px;
+    width: 400px;
+    padding: 20px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    background-color:antiquewhite;
+    color: black; 
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+.habilidades{
+    height: 300px;
+    width: 400px;
+    padding: 20px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    background-color:antiquewhite;
+    color: black; 
+    border-radius: 10px;
+    font-size: 12px;
+    
+}
+
+
+
+
+
+
+ul {
+    list-style-type: square;
+    padding: 10 40px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse:initial;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055a4;
+}
+  
+  
